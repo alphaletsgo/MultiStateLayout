@@ -247,7 +247,7 @@ public class MultiStateLayout extends FrameLayout {
                 if (mLoadingView != null) mLoadingView.setVisibility(View.GONE);
                 if (mErrorView != null) mErrorView.setVisibility(View.GONE);
                 if (mEmptyView != null) mEmptyView.setVisibility(View.GONE);
-                if (mErrorView != null) mErrorView.setVisibility(View.GONE);
+                if (mOtherView != null) mOtherView.setVisibility(View.GONE);
                 mContentView.setVisibility(View.VISIBLE);
                 break;
         }

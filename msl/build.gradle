@@ -36,7 +36,7 @@ def siteUrl = 'https://github.com/yieryi/MultiStateLayout'
 def gitUrl = 'https://github.com/yieryi/MultiStateLayout.git'
 
 group = 'cn.isif.msl'
-version = '1.0.1'
+version = '1.0.2'
 
 //配置source jar的生成
 task sourcesJar(type: Jar) {
